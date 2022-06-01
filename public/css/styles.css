@@ -1,0 +1,430 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto';
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #EAC926;
+}
+
+body{
+    font-size: 12px;
+    margin: 0px;
+    background-color: #ebebeba9;
+}
+
+header nav{
+    display: none;
+}
+
+header ul{
+    margin-top: 10px;
+    padding-left: 0;
+}
+
+header ul li{
+    list-style-type: none;
+}
+
+header ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+header img{
+    width: 100%;
+    max-width: 360px;   
+}
+
+header .buscador{
+    margin: auto;
+    padding-top: 10px;
+}
+
+.main-header-top-bar .slogan{
+    padding-top: 10px;
+    margin: auto;
+}
+
+footer{
+    margin-top: 50px;
+    padding: 0px 20px;
+}
+
+main img{
+    width: 80%;
+    margin: auto;
+    max-width: 420px;
+}
+
+main{
+    padding: 0px 20px;
+}
+
+footer article:hover i{
+    color: #EAC926;
+}
+
+.registro .login{
+    margin: auto;
+    max-width: 850px;
+    padding: 20px 15px;
+}
+
+.registro div .login div{
+    margin-bottom: 15px;
+}
+
+.registro label, .login label{
+    margin-bottom: 5px;
+    font-style: italic;
+    display: block;
+}
+
+.registro , .login {
+    width: 100%;
+    padding: 8px;
+}
+
+.login .button{
+    margin-top: 20px;
+    background-color: #1259c3;
+    color: white;
+    border: none;
+    font-size: 20px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    width: 100%;
+    transition: background-color 450ms;
+}
+
+
+.login .textbox{
+    padding:1em;
+    margin:1em;
+    border-radius: 5px;
+    width: 100%;
+    
+}
+.registro .login .textbox{
+    padding:1em;
+    margin:1em;
+    border-radius: 5px;
+    width: 100%;
+    
+}
+
+
+.login button:hover{
+    margin-top: 20px;
+    background-color: #0022AA;
+    color: white;
+    border: none;
+    font-size: 20px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.registro button{
+    margin: auto;
+    background-color: #1259c3;
+    color: white;
+    border: none;
+    font-size: 20px;
+    
+    border-radius: 3px;
+    width: 45%;
+}
+
+.registro-buttons{
+    display: flex;
+}
+
+
+.ultima-vista article, .ofertas article {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items:center;
+}
+
+
+.buscador{
+    display: flex;
+    padding: 0 20px;
+}
+
+.slogan {
+    text-align: center;
+}
+
+.main-article{
+    width: 80%;
+    margin-bottom: 10px;
+    border-bottom: solid 1px grey;
+    padding: 0 15px;
+    padding-bottom: 10px;
+}
+
+.ultima-vista .titular , .ofertas .titular{
+    width: 100%;
+    margin: 20px 0;
+    font-size: 20px;
+}
+
+.ultima-vista .precio, .ofertas .precio{
+    font-size: 18px;
+    margin: 8px 0;
+    display: inline;
+}
+
+.ultima-vista .descuento, .ofertas .descuento, .ultima-vista .descripcion, .ofertas .descripcion{
+    font-size: 12px;
+    margin: 8px 0;
+}
+
+.ultima-vista .descripcion, .ofertas .descripcion{
+    display: none;
+    color: grey;
+    transition: display 450ms;
+}
+
+.ultima-vista article:hover .descripcion,
+.ofertas article:hover .descripcion{
+    display: block;
+}
+
+.ultima-vista .descuento, .ofertas .descuento{
+    color: #34b94e;
+    display: inline;
+}
+
+.hamburguer-button i{
+    margin: auto;
+    background-color: #1259c3;
+    color: #ffffff;
+    display: block;
+    max-width: 50px;
+    padding: 15px 0;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.ultima-vista article, .ofertas article{
+    margin-bottom: 10px;
+    transition: box-shadow 450ms;
+}
+
+.ultima-vista article:hover, .ofertas article:hover{
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+
+.informacion{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.info-icon{
+    text-align: center;
+    color: white;
+    background-color: transparent;
+    margin: auto;
+}
+
+.logo{
+    width: 150px;
+}
+
+.info-icon i{
+    margin-bottom: 10px;
+    color: #1259c3;
+    font-size: 2em;
+}
+
+.informacion p, .derechos{
+    margin-top: 0;
+    color: grey;
+    font-size: 12px;
+}
+
+.ultima-vista article{
+    background-color: #1259c3;
+}
+
+.fas{
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    background-color: #FFF;
+    border-radius: 50%;
+    float: right;
+    border: solid 1px #34b94e;
+}
+
+.informacion h4{
+    font-size: 14px;
+}
+
+.ultima-vista article, .ofertas article{
+    background-color: white;
+}
+
+.ultima-vista article i, .ofertas article i{
+    color: #34b94e;
+    transition: transform 450ms;
+}
+
+.ultima-vista article i:hover, .ofertas article i:hover{
+    transform: rotate(-90deg);
+    color: #34b94e;
+}
+
+.image-header img{
+    width: 100%;
+
+}
+
+.ham-button{
+    margin-bottom: 0;
+    padding-bottom: 20px;
+}
+
+/* Mobile Medium */
+@media (min-width: 361px) {
+    .ultima-vista .descripcion, .ofertas .descripcion{
+        display: block;
+    }
+
+    .logo{
+        width: 250px;
+    }
+
+    .hamburguer-button{
+        display: none;
+    }
+
+    .ultima-vista .titular, .ofertas .titular{
+        font-size: 24px;
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    .ultima-vista, .ofertas{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .ultima-vista article, .ofertas article{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        width: 44%;
+        margin: 1%;
+    }
+
+    .main-article{
+        border-bottom: solid 0px white;
+    }
+
+    .main-header-top-bar{
+        flex-direction: row;
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .main-navbar{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .main-navbar ul{
+        display: flex;
+    }
+
+    .main-navbar li{
+        margin: 0 5px;
+    }
+
+    .right-navbar{
+        margin-bottom: 0;
+        padding-bottom: 20px;
+    }
+
+}
+
+/* Tablet */
+@media (min-width: 769px) {
+
+    header nav{
+        display: block;
+    }
+
+    footer article{
+        max-width: 30%;
+    }
+
+    footer{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .hamburguer-button{
+        display: none;
+    }
+
+    .main-header-top-bar, .main-navbar{
+        max-width: 1200px;
+        margin: auto;
+    }
+
+    .main-header-top-bar{
+        align-items: center;
+    }
+
+    .logo{
+        width: 250;
+    }
+
+    .main-navbar{
+        margin-top: 30px;
+    }
+
+    .main-navbar li{
+        margin: 0 10px;
+    }
+
+    .main-navbar a{
+        font-size: 18px;
+    }
+
+    .ultima-vista article, .ofertas article{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        width: 24%;
+        margin: 0.5%;
+    }
+
+    .main-article{
+        border-bottom: solid 0px white;
+    }
+
+    .right-navbar{
+        margin-bottom: 0;
+        padding-bottom: 20px;
+    }
+
+    .main-header-top-bar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
