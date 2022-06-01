@@ -144,7 +144,7 @@ footer article:hover i{
 }
 
 
-.ultima-vista article, .ofertas article {
+.lview article, .ofertas article {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -157,7 +157,7 @@ footer article:hover i{
     padding: 0 20px;
 }
 
-.slogan {
+.titulo {
     text-align: center;
 }
 
@@ -169,35 +169,35 @@ footer article:hover i{
     padding-bottom: 10px;
 }
 
-.ultima-vista .titular , .ofertas .titular{
+.lview .titular , .ofertas .titular{
     width: 100%;
     margin: 20px 0;
     font-size: 20px;
 }
 
-.ultima-vista .precio, .ofertas .precio{
+.lview .precio, .ofertas .precio{
     font-size: 18px;
     margin: 8px 0;
     display: inline;
 }
 
-.ultima-vista .descuento, .ofertas .descuento, .ultima-vista .descripcion, .ofertas .descripcion{
+.lview .descuento, .ofertas .descuento, .lview .descripcion, .ofertas .descripcion{
     font-size: 12px;
     margin: 8px 0;
 }
 
-.ultima-vista .descripcion, .ofertas .descripcion{
+.lview .descripcion, .ofertas .descripcion{
     display: none;
     color: grey;
     transition: display 450ms;
 }
 
-.ultima-vista article:hover .descripcion,
+.lview article:hover .descripcion,
 .ofertas article:hover .descripcion{
     display: block;
 }
 
-.ultima-vista .descuento, .ofertas .descuento{
+.lview .descuento, .ofertas .descuento{
     color: #34b94e;
     display: inline;
 }
@@ -214,12 +214,12 @@ footer article:hover i{
     font-size: 18px;
 }
 
-.ultima-vista article, .ofertas article{
+.lview article, .ofertas article{
     margin-bottom: 10px;
     transition: box-shadow 450ms;
 }
 
-.ultima-vista article:hover, .ofertas article:hover{
+.lview article:hover, .ofertas article:hover{
     box-shadow: 0px 0px 10px rgb(100, 100, 100);
 }
 
@@ -251,7 +251,7 @@ footer article:hover i{
     font-size: 12px;
 }
 
-.ultima-vista article{
+.lview article{
     background-color: #1259c3;
 }
 
@@ -271,16 +271,16 @@ footer article:hover i{
     font-size: 14px;
 }
 
-.ultima-vista article, .ofertas article{
+.lview article, .ofertas article{
     background-color: white;
 }
 
-.ultima-vista article i, .ofertas article i{
+.lview article i, .ofertas article i{
     color: #34b94e;
     transition: transform 450ms;
 }
 
-.ultima-vista article i:hover, .ofertas article i:hover{
+.lview article i:hover, .ofertas article i:hover{
     transform: rotate(-90deg);
     color: #34b94e;
 }
@@ -297,7 +297,7 @@ footer article:hover i{
 
 /* Mobile Medium */
 @media (min-width: 361px) {
-    .ultima-vista .descripcion, .ofertas .descripcion{
+    .lview .descripcion, .ofertas .descripcion{
         display: block;
     }
 
@@ -309,19 +309,19 @@ footer article:hover i{
         display: none;
     }
 
-    .ultima-vista .titular, .ofertas .titular{
+    .lview .titular, .ofertas .titular{
         font-size: 24px;
         width: 100%;
         margin: 20px 0;
     }
 
-    .ultima-vista, .ofertas{
+    .lview, .ofertas{
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
     }
 
-    .ultima-vista article, .ofertas article{
+    .lview article, .ofertas article{
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
         width: 44%;
         margin: 1%;
@@ -407,7 +407,7 @@ footer article:hover i{
         font-size: 18px;
     }
 
-    .ultima-vista article, .ofertas article{
+    .lview article, .ofertas article{
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
         width: 24%;
         margin: 0.5%;
